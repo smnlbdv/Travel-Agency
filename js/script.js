@@ -197,7 +197,3 @@ function burderShow() {
   burgerPopup.classList.toggle('show_burger')
   document.querySelector('body').classList.toggle('noscroll')
 }
-
-document.querySelector('.block__up').onclick = () => {
-  window.scrollTo(pageYOffset, 0);
-}
