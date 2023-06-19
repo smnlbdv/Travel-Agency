@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="//code.jivo.ru/widget/5uQ70r0Kjn" async></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <title>Travel Agency</title>
+</head>
+<body id="main__section">
+    <div class="block__up">
+        <a href="#main__section"></a>
+        <img src="/icons/upLine.png" alt="buton_up">
+    </div>
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+    <div class="burger__popup"></div>
+    <header class="header header__two" id="header_two">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="/icons/logo.png" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list_item">Контакты</li>
+                        <li class="menu__list_item">Туры</li>
+                        <li class="menu__list_item">О нас</li>
+                        <li class="menu__list_item">Пресса о нас</li>
+                        <li class="menu__list_item">FAQ</li>
+                        <li class="menu__list_item">Отзывы</li>
+                    </ul>
+                    <ul class="menu__call-order">
+                        <li class="order_item">
+                            <a class="link__oreder-tel" href="tel:+79999999999">+7 (999) 999 99 99</a>
+                        </li>
+                        <li class="order_item">
+                            <a class="link__order" href="#">Заказать звонок</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="block__hamb">
+                    <span class="span_hamb"></span>
+                    <span class="span_hamb"></span>
+                    <span class="span_hamb"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="/icons/logo.png" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list_item">Контакты</li>
+                        <li class="menu__list_item">Туры</li>
+                        <li class="menu__list_item">О нас</li>
+                        <li class="menu__list_item">Пресса о нас</li>
+                        <li class="menu__list_item">FAQ</li>
+                        <li class="menu__list_item">Отзывы</li>
+                    </ul>
+                    <ul class="menu__call-order">
+                        <li class="order_item">
+                            <a class="link__oreder-tel" href="tel:+79999999999">+7 (999) 999 99 99</a>
+                        </li>
+                        <li class="order_item">
+                            <a class="link__order" href="#">Заказать звонок</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="block__hamb">
+                    <span class="span_hamb"></span>
+                    <span class="span_hamb"></span>
+                    <span class="span_hamb"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main__section">
+            <div class="container">
+                <div class="inner__section">
+                    <div class="section__block_ad">
+                        <div class="add__date-block">
+                            <p class="date__title">Ближайший тур: 30.06.2023 - 08.07.2023</p>
+                            <div class="date__button">
+                                <img src="/icons/calendar.png" alt="calendar">
+                                <label>Другие даты</label>
+                            </div>
+                        </div>
+                        <div class="ad__description">
+                            <h2 class="title_section">Девятидневный тур «Увидеть максимум»</h2>
+                            <p class="description_section">
+                                Проживи всю Камчатку за 9 дней с нашей авторской программой уже этим летом
+                            </p>
+                        </div>
+                        <form class="add__application">
+                            <p class="application__title-ad">Оставляй заявку и успей занять лучшие даты в короткий Камчатский сезон.</p>
+                            <div class="application__block">
+                                <input class="input_phone" type="text" placeholder="+7 (___) ___-__-__">
+                                <button class="button" type="submit">Оставить</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="section__block_info">
+                        <div class="block__background">
+                            <img src="/images/background.png" alt="background mountains">
+                        </div>
+                        <div class="block__line_info">
+                            <img src="/images/line.png" alt="tour path">
+                            <div class="block__span">
+                                <span class="circle_i">i</span>
+                                <p class="block__span_i">Большие колеса - обеспечивают <b class="yelow-text">безопасность, комфорт</b> и высокую скорость по бездорожью, что позволит <b class="yelow-text">в 2 раза быстрее</b> достигнуть цели и раньше вернуться на базу отдыха. </p>
+                            </div>
+                        </div>
+                        <div class="block__component-travel">
+                            <div class="item__component">
+                                <div class="component_img active__component">
+                                    <img src="/icons/geep.png" alt="geep">
+                                </div>
+                                <p class="component_title">Подготовленные внедорожники</p>
+                            </div>
+                            <div class="item__component">
+                                <div class="component_img">
+                                    <img src="/icons/base.png" alt="base">
+                                </div>
+                                <p class="component_title">База отдыха с спа зоной</p>
+                            </div>
+                            <div class="item__component">
+                                <div class="component_img">
+                                    <img src="/icons/boat.png" alt="boat">
+                                </div>
+                                <p class="component_title">Большой катамаран</p>
+                            </div>
+                            <div class="item__component">
+                                <div class="component_img">
+                                    <img src="/icons/tent.png" alt="tent">
+                                </div>
+                                <p class="component_title">Глемпинг на берегу  океана </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="short__info">
+            <div class="container">
+                <div class="inner__short_info">
+                    <div class="info__text">
+                        <h2 class="title_section">Кратко о туре</h2>
+                        <p class="description_section inner__short_text">Оптимальный тур для первого посещения Камчатки, с комфортным проживанием и трансфером. В нем собраны <b class="yelow-text">вулканы, горячие источники, речная рыбалка</b> на лосося и морского окуня,<b class="yelow-text">медведи в дикой природе, морские обитатели,</b> киты и касатки.</p>
+                        <button class="button button_hort-info">Узнать подробнее</button>
+                    </div>
+                    <div class="info__image">
+                        <img src="/images/imageShort.png" alt="imageShort">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantage__section">
+            <div class="container">
+                <div class="inner__advantage_info">
+                    <h2 class="title_section">Почему наши туры лучше?</h2>
+                    <ul class="list__advantages">
+                        <li class="advantage">
+                            <img src="/icons/case.png" alt="case advantage">
+                            <h1 class="advantage__title">Опыт</h1>
+                            <p class="advantage__text">Мы организуем туры на Камчатку с 2016 года. Мы организовали отдых более чем для 120 человек и не остановимся на этом</p>
+                        </li>
+                        <li class="advantage">
+                            <img src="/icons/star.png" alt="star advantage">
+                            <h1 class="advantage__title">Профессионализм</h1>
+                            <p class="advantage__text">Все гиды коренные жители Камчатки со специальной подготовкой. Проверенная и проходимая техника.</p>
+                        </li>
+                        <li class="advantage">
+                            <img src="/icons/confetti.png" alt="confetti advantage">
+                            <h1 class="advantage__title">Невероятные эмоции</h1>
+                            <p class="advantage__text">Мы строим свои туры так, чтобы показать вам Максимум дикой природы Камчатки. Дикие звери, морские обитатели и вулканы</p>
+                        </li>
+                        <li class="advantage">
+                            <img src="/icons/camera.png" alt="camera advantage">
+                            <h1 class="advantage__title">Фотосъемка</h1>
+                            <p class="advantage__text">Поехав с нами в тур, вы получите не только эмоции, но и привлекательные фотографии для соц.сетей</p>
+                        </li>
+                    </ul>
+                    <img class="back_image_advantage" src="/images/cloud.png" alt="cloud advantage">
+                </div>
+            </div>
+        </section>
+        <section class="section__program_travel">
+            <div class="container">
+                <div class="inner__program_info">
+                    <h2 class="title_section">Программа тура по дням</h2>
+                    <div class="inner__program">
+                        <div class="block__image_slider">
+                            <img src="/images/slider-1.png" alt="slider 1">
+                            <button class="button__black">Посмотреть карту тура</button>
+                        </div>
+                        <div class="block__swiper">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="block__info_slider">
+                                            <span>День 1</span>
+                                            <h3 class="slider__title">Нерестовая река с медведями
+                                            </h3>
+                                            <p class="slider__text">
+                                                Впереди у нас целых два дня на природе. Мы отправляемся.
+                                                после завтрака, а заночуем в палатках. Обязательно возьмите
+                                                теплые вещи.<br><br>
+        
+                                                Выезжаем на вахтовом грузовике в сторону реки Быстрая. За 2
+                                                часа мы преодолеем 150 км в основном по асфальту. Питаемся перекусами, которые будут в рафтах, а также знаменитыми
+                                                Сокочинскими пирожками.<br><br>
+        
+                                                К обеду начинается сплав по реке, которая, несмотря на свое название, очень спокойная. В каждом рафте помещаются по 4-6
+                                                человек, а также 3-4 спиннинга. Поймать дикого лосося можно
+                                                прямо по пути, а не только на стоянках.<br><br>
+        
+                                                В этот день мы увидим другую Камчатку: берега реки, обильно
+                                                усыпанные растениями, и семьи диких медведей, которые ловят рыбу, не боясь туристов.
+                                                К вечеру разбиваем лагерь. Помощники разводят костер,
+                                                оборудуют кухню, столовую и помогают обустроить и поставить.<br><br>
+                                                
+                                                К вечеру разбиваем лагерь. Помощники разводят костер,
+                                                оборудуют кухню, столовую и помогают обустроить и поставить<br><br>
+    
+                                                <b>На чем будем передвигаться:</b> Камаз и рафты <br>
+                                                <b>Где ночуем: Палаточный лагерь</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="block__info_slider">
+                                            <span>День 2</span>
+                                            <h3 class="slider__title">Нерестовая река с медведями
+                                            </h3>
+                                            <p class="slider__text">
+                                                Впереди у нас целых два дня на природе. Мы отправляемся.
+                                                после завтрака, а заночуем в палатках. Обязательно возьмите
+                                                теплые вещи.<br><br>
+        
+                                                Выезжаем на вахтовом грузовике в сторону реки Быстрая. За 2
+                                                часа мы преодолеем 150 км в основном по асфальту. Питаемся перекусами, которые будут в рафтах, а также знаменитыми
+                                                Сокочинскими пирожками.<br><br>
+        
+                                                К обеду начинается сплав по реке, которая, несмотря на свое название, очень спокойная. В каждом рафте помещаются по 4-6
+                                                человек, а также 3-4 спиннинга. Поймать дикого лосося можно
+                                                прямо по пути, а не только на стоянках.<br><br>
+        
+                                                В этот день мы увидим другую Камчатку: берега реки, обильно
+                                                усыпанные растениями, и семьи диких медведей, которые ловят рыбу, не боясь туристов.
+                                                К вечеру разбиваем лагерь. Помощники разводят костер,
+                                                оборудуют кухню, столовую и помогают обустроить и поставить.<br><br>
+                                                
+                                                К вечеру разбиваем лагерь. Помощники разводят костер,
+                                                оборудуют кухню, столовую и помогают обустроить и поставить<br><br>
+    
+                                                <b>На чем будем передвигаться:</b> Камаз и рафты <br>
+                                                <b>Где ночуем: Палаточный лагерь</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="block__info_slider">
+                                            <span>День 3</span>
+                                            <h3 class="slider__title">Нерестовая река с медведями
+                                            </h3>
+                                            <p class="slider__text">
+                                                Впереди у нас целых два дня на природе. Мы отправляемся.
+                                                после завтрака, а заночуем в палатках. Обязательно возьмите
+                                                теплые вещи.<br><br>
+        
+                                                Выезжаем на вахтовом грузовике в сторону реки Быстрая. За 2
+                                                часа мы преодолеем 150 км в основном по асфальту. Питаемся перекусами, которые будут в рафтах, а также знаменитыми
+                                                Сокочинскими пирожками.<br><br>
+        
+                                                К обеду начинается сплав по реке, которая, несмотря на свое название, очень спокойная. В каждом рафте помещаются по 4-6
+                                                человек, а также 3-4 спиннинга. Поймать дикого лосося можно
+                                                прямо по пути, а не только на стоянках.<br><br>
+        
+                                                В этот день мы увидим другую Камчатку: берега реки, обильно
+                                                усыпанные растениями, и семьи диких медведей, которые ловят рыбу, не боясь туристов.
+                                                К вечеру разбиваем лагерь. Помощники разводят костер,
+                                                оборудуют кухню, столовую и помогают обустроить и поставить.<br><br>
+                                                
+                                                К вечеру разбиваем лагерь. Помощники разводят костер,
+                                                оборудуют кухню, столовую и помогают обустроить и поставить<br><br>
+    
+                                                <b>На чем будем передвигаться:</b> Камаз и рафты <br>
+                                                <b>Где ночуем: Палаточный лагерь</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block__navigation_slider">
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                            <button class="button button_hort-info btn__swiper">Скачать полную презентацию</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__application">
+            <div class="container">
+                <div class="inner__ad_info ad__first">
+                    <div class="ap_image">
+                        <img src="/images/groupCloud.png" alt="group cloud">
+                    </div>
+                    <div class="ad__application">
+                        <div class="inner__block_ad">
+                            <h2 class="application__title">Подберем лучшие авиабилеты</h2>
+                            <ul class="aplication__list">
+                                <li class="item__aplication">
+                                    <img src="/icons/circle.png" alt="circle">
+                                    Всегда есть в наличии</li>
+                                <li class="item__aplication">
+                                    <img src="/icons/circle.png" alt="circle">
+                                    Лучшая стоимость</li>
+                                <li class="item__aplication">
+                                    <img src="/icons/circle.png" alt="circle">
+                                    В обе стороны</li>
+                            </ul>
+                            <form class="application__block">
+                                <input class="input_phone" type="text" placeholder="+7 (___) ___-__-__">
+                                <button class="button button__cloud" type="submit">Оставить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <section class="section__opinion">
+            <div class="container">
+                <div class="inner__opinion">
+                    <h2 class="title_section opinion_text">Что люди думают о туре?</h2>
+                    <div class="opinion__video">
+                        <iframe class="iframe" src="https://www.youtube.com/embed/b9GBwLLLJSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__application-two">
+            <div class="container">
+                <form class="form__application">
+                    <p class="inner__text_two">
+                        Оставьте свой номер, чтобы получить консультацию или записаться на ближайший тур
+                    </p>
+                    <div class="application__block application-two_block">
+                        <input class="input_phone" type="text" placeholder="+7 (___) ___-__-__">
+                        <button class="button" type="submit">Оставить</button>
+                    </div>
+                </form>
+            </div>
+        </section>  
+        <section class="section__pack_image">
+            <div class="container">
+                <div class="inner__pack_image">
+                    <div class="block__info_pack">
+                        <h2 class="title_section pack_title">Программа тура по дням</h2>
+                        <p class="description_section pack_text">Все фотографии сделаны непосредственно в турах BigFoot и являются собственностью компании. Поехав с нами в тур, вы преобретёте привлектаельный и незабываемый контент в свои соц. сети.</p>
+                    </div>
+                    <div class="image__block_pack">
+                        <div class="pack_block block_one_pack">
+                            <div class="pack-block-1">
+                                <img src="/images/pack-1-1.png" alt="image">
+                            </div>
+                            <div class="pack-block-2">
+                                <img src="/images/pack-1-2.png" alt="image">
+                            </div>
+                        </div>
+                        <div class="pack_block block_one_two">
+                            <div class="pack-block-2">
+                                <img src="/images/pack-2-1.png" alt="image">
+                            </div>
+                            <div class="pack-block-1">
+                                <img src="/images/pack-2-2.png" alt="image">
+                            </div>
+                        </div>
+                        <div class="pack_block block_one_three">
+                            <div class="pack-block-1">
+                                <img src="/images/pack-3-1.png" alt="image">
+                            </div>
+                            <div class="pack-block-2">
+                                <img src="/images/pack-3-2.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button__add_image">
+                        <button class="button__black button_image">Показать еще 777 фото</button>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <section class="section__ad_info">
+            <div class="container">
+                <div class="inner__ad_info">
+                    <div class="ad__application">
+                        <div class="inner__block_ad ad__two">
+                            <h2 class="application__title">Хотите поехать в тур компанией?</h2>
+                            <p class="application__text">Если у вас есть команда единомышленников, мы можем организовать поездку специально для вашей группы.</p>
+                            <button class="button ad_button" type="submit">Узнать подробнее</button>
+                        </div>
+                    </div>
+                    <div class="ap_image">
+                        <img src="/images/image_ad.png" alt="image advantage">
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="section__accordion_questions">
+            <div class="container">
+                <div class="inner__accordion_list">
+                    <h2 class="title_section accordion_title">Часто задаваемые вопросы</h2>
+                    <div class="accordion__list">
+                        <div class="accordion_item">
+                            <div class="accordion_head">
+                                <p class="accordion__question_text">Что мы увидим?</p>
+                                <svg class="accordion__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path  class="path" d="M13.8379 20.6741L19.3827 26.3921C19.7379 26.7584 20.2621 26.7584 20.6174 26.3921L31.3335 15.3413C32.0022 14.6517 31.5969 13.3335 30.7162 13.3335H21.1785L13.8379 20.6741Z" fill="#2D2A2A"/>
+                                    <path  class="path" opacity="0.5" d="M18.8215 13.3335H9.28388C8.40319 13.3335 7.99786 14.6517 8.66653 15.3413L12.6775 19.4775L18.8215 13.3335Z" fill="#2D2A2A"/>
+                                </svg>
+                            </div>
+                            <div class="accordion__inner">
+                                <ul class="accordion__list_info">
+                                    <li class="accordion__info_item">
+                                        520 км на внедорожниках
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        75 км на рафте по реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        140 миль на яхте
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в глемпинге на берегу Тихого океана
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в палатке на реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи на базе отдыха
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи в гостинице
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion_item">
+                            <div class="accordion_head">
+                                <p class="accordion__question_text">Что взять с собой?</p>
+                                <svg class="accordion__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path  class="path" d="M13.8379 20.6741L19.3827 26.3921C19.7379 26.7584 20.2621 26.7584 20.6174 26.3921L31.3335 15.3413C32.0022 14.6517 31.5969 13.3335 30.7162 13.3335H21.1785L13.8379 20.6741Z" fill="#2D2A2A"/>
+                                    <path  class="path" opacity="0.5" d="M18.8215 13.3335H9.28388C8.40319 13.3335 7.99786 14.6517 8.66653 15.3413L12.6775 19.4775L18.8215 13.3335Z" fill="#2D2A2A"/>
+                                </svg>
+                            </div>
+                            <div class="accordion__inner">
+                                <ul class="accordion__list_info">
+                                    <li class="accordion__info_item">
+                                        520 км на внедорожниках
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        75 км на рафте по реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        140 миль на яхте
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в глемпинге на берегу Тихого океана
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в палатке на реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи на базе отдыха
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи в гостинице
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion_item">
+                            <div class="accordion_head">
+                                <p class="accordion__question_text">Что входит в стоимость?</p>
+                                <svg class="accordion__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path  class="path" d="M13.8379 20.6741L19.3827 26.3921C19.7379 26.7584 20.2621 26.7584 20.6174 26.3921L31.3335 15.3413C32.0022 14.6517 31.5969 13.3335 30.7162 13.3335H21.1785L13.8379 20.6741Z" fill="#2D2A2A"/>
+                                    <path  class="path" opacity="0.5" d="M18.8215 13.3335H9.28388C8.40319 13.3335 7.99786 14.6517 8.66653 15.3413L12.6775 19.4775L18.8215 13.3335Z" fill="#2D2A2A"/>
+                                </svg>
+                            </div>
+                            <div class="accordion__inner">
+                                <ul class="accordion__list_info">
+                                    <li class="accordion__info_item">
+                                        520 км на внедорожниках
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        75 км на рафте по реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        140 миль на яхте
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в глемпинге на берегу Тихого океана
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в палатке на реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи на базе отдыха
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи в гостинице
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion_item">
+                            <div class="accordion_head">
+                                <p class="accordion__question_text">Что не входит в стоимость?</p>
+                                <svg class="accordion__icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="path" d="M13.8379 20.6741L19.3827 26.3921C19.7379 26.7584 20.2621 26.7584 20.6174 26.3921L31.3335 15.3413C32.0022 14.6517 31.5969 13.3335 30.7162 13.3335H21.1785L13.8379 20.6741Z" fill="#2D2A2A"/>
+                                    <path class="path" opacity="0.5" d="M18.8215 13.3335H9.28388C8.40319 13.3335 7.99786 14.6517 8.66653 15.3413L12.6775 19.4775L18.8215 13.3335Z" fill="#2D2A2A"/>
+                                </svg>
+                            </div>
+                            <div class="accordion__inner">
+                                <ul class="accordion__list_info">
+                                    <li class="accordion__info_item">
+                                        520 км на внедорожниках
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        75 км на рафте по реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        140 миль на яхте
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в глемпинге на берегу Тихого океана
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        1 ночь в палатке на реке
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи на базе отдыха
+                                    </li>
+                                    <li class="accordion__info_item">
+                                        3 ночи в гостинице
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__our_reviews">
+            <div class="container">
+                <h2 class="title_section reviews_title">Наши отзывы</h2>
+                <div class="reviews__block">
+                    <div class="review">
+                        <div class="review_image" data-url="https://www.youtube.com/embed/J_i1XQmp0e0">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review_image">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review_image">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review_image">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review_image">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review_image">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review_image">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review_image">
+                            <img src="/images/predVideo.jpg" alt="preloader video">
+                        </div>
+                        <div class="review_text">
+                            <p class="review_text_name">Анжела</p>
+                            <p class="review_text_city">г.Москва</p>
+                            <span></span>
+                            <p class="review_text_date">Участник похода от <b>20.08.2020</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="video__popup">
+            <div class="frame">
+                <div class="block__span-frame">
+                    <span></span>
+                    <span></span>
+                </div>
+                <iframe class="iframePopup" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <section class="payment__travel">
+            <div class="container">
+                <div class="inner__payment_travel">
+                    <div class="block__qr_code">
+                        <div class="qr__code_image">
+                            <img src="/images/iphone.png" alt="iphone">
+                        </div>
+                        <div class="qr__code_text">
+                            <h2 class="title_section">Оплатить девятидневный тур «Увидеть максимум»</h2>
+                            <p class="text__title_list">В стоимость тура включено:</p>
+                            <ul class="aplication__list qr__list">
+                                <li class="item__aplication qr_item">
+                                    <img src="/icons/circle.png" alt="circle">
+                                    <p>Проживание на базе отдыха с <b>терминальными бассейнами</b> и спа зоной</p>
+                                </li>
+                                <li class="item__aplication qr_item">
+                                    <img src="/icons/circle.png" alt="circle">
+                                    <p>Трансфер на <b>подготовленных внедорожниках</b>, которые наши водители строят сами.</p>
+                                </li>
+                                <li class="item__aplication qr_item">
+                                    <img src="/icons/circle.png" alt="circle">
+                                    <p>Выход в океан на <b>катамаране Gross</b></p>
+                                </li>
+                                <li class="item__aplication qr_item">
+                                    <img src="/icons/circle.png" alt="circle">
+                                    <p>Ужины и завтраки в гостиницах, <b>питание</b> на всем маршруте</b></p>
+                                </li>
+                            </ul>
+                            <div class="qr__block_pay">
+                                <button class="button qr_button">Оплатить через QR-код</button>
+                                <p class="qr__block_price">Стоимость тура: 179 000 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="form__application qr_application">
+                        <p class="inner__text_two">
+                            Выберите удобную для себя дату тура
+                        </p>
+                        <div class="application__block application-two_block">
+                            <input class="input_date" type="date" id="input_date">
+                            <button class="button" type="submit">Оставить заявку</button>
+                        </div>
+                    </form>
+                    <div class="application__block_qr">
+                        <div class="block__qr_first">
+                            <div class="qr_first-inner">
+                                <form class="application__block form__qr_first">
+                                    <h2 class="title_section qr_title">Не нашли удобную дату?</h2>
+                                <p class="qr_first-text">Оставьте заявку, у нас есть для вас вариант</p>
+                                    <input type="text" placeholder="Ваше имя"/>
+                                    <input type="text" class="phone input_phone" placeholder="+7 (___) ___-__-__">
+                                    <button class="button button__form_qr-first">Подобрать дату</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="block__qr_two">
+                            <img src="/images/bear.png" alt="bear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="logo">
+                    <img class="logo__img" src="/icons/logoFooter.png" alt="logo">
+                </a>
+                <ul class="menu__list footer__list">
+                    <li class="menu__list_item">Контакты</li>
+                    <li class="menu__list_item">Туры</li>
+                    <li class="menu__list_item">О нас</li>
+                    <li class="menu__list_item">Пресса о нас</li>
+                    <li class="menu__list_item">FAQ</li>
+                    <li class="menu__list_item">Отзывы</li>
+                </ul>
+                <ul class="menu__call-order footer__call-order">
+                    <li class="order_item">
+                        <a class="link__oreder-tel" href="tel:+79999999999">+7 (999) 999 99 99</a>
+                    </li>
+                    <li class="order_item">
+                        <a class="link__order" href="#">Заказать звонок</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
