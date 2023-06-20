@@ -1919,4 +1919,13 @@ main {
     .link__oreder-tel {
         color: white;
     }
+    .block__span-frame {
+        width: 8.2vmin;
+        height: 8.2vmin;
+        transform: translateY(-9.6vmin)
+    }
+    .block__span-frame span {
+        width: 5.3vmin;
+        height: 0.3vmin;
+    }
 }
