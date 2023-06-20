@@ -225,7 +225,7 @@ function goTop() {
   // пока не вернулись в начало страницы
   if (window.pageYOffset > 0) {
     // скроллим наверх
-    window.scrollBy(0, -75); // второй аргумент - скорость
+    window.scrollBy(0, -150); // второй аргумент - скорость
     setTimeout(goTop, 0); // входим в рекурсию
   }
 }
