@@ -998,7 +998,7 @@ main {
 .swiper-button-next::after {
     content: "" !important;
     width: 3vmin;
-    background-image: url("./icons/vector.png");
+    background-image: url("../icons/vector.png");
     height: 3vmin;
     background-repeat: no-repeat;
     background-position: center;
@@ -1009,7 +1009,7 @@ main {
 .swiper-button-prev::after {
     content: "" !important;
     width: 3vmin;
-    background-image: url("./icons/vector.png");
+    background-image: url("../icons/vector.png");
     height: 3vmin;
     transform: rotate(180deg);
     background-repeat: no-repeat;
@@ -1099,7 +1099,7 @@ main {
     content: "";
     left: 0;
     top: 0;
-    background-image: url("./icons/play.png");
+    background-image: url("../icons/play.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80px;
