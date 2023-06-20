@@ -1444,7 +1444,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 7vmin;
-    bottom: 20vmin;
+    bottom: 8vmin;
     z-index: 300;
     height: 7vmin;
     border-radius: 50%;
@@ -1929,5 +1929,8 @@ main {
     .block__span-frame span {
         width: 4.3vmin;
         height: 0.3vmin;
+    }
+    .block__up {
+        bottom: 25vmin;
     }
 }
